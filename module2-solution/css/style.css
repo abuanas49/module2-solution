@@ -1,0 +1,115 @@
+.col-0{
+	text-align: center;
+	font-size: 30px;
+	
+
+}
+.row{
+	width: 100%;
+}
+
+
+.col-1{
+	border: 2px solid black;
+	background-color: gray;
+	margin: 5px;
+	float: left;
+	padding: 10px;
+	width: 30%;
+	font-family: helvetica;
+	margin-left: 20px;
+}
+
+.col-2{
+	border: 2px solid black;
+	background-color: sandybrown;
+	margin: 5px;
+	float: left;
+	padding: 10px;
+	width: 30%;
+	font-family: verdana;
+}
+.col-3{
+	border: 2px solid black;
+	background-color: deepskyblue;
+	margin: 5px;
+	float: left;
+	padding: 10px;
+	width: 30%;
+	font-family: sans-serif
+}
+.col-4{
+	background-color: pink;
+	/*width: 5%;*/
+	float: right;
+	font-family: times new roman;
+	font-size: 20px;
+}
+
+.col-5{
+	background-color: red;
+	/*width: 5%;*/
+	float: right;
+	font-size: 18px;
+	font-style: italic;
+	}
+
+.col-6{
+	background-color: yellow;
+	/*width: 5%;*/
+	float: right;
+	font-size: 14px;
+}
+/***********desktop******************/
+@media (min-width: 1200px){
+	
+	.col-1{ color: white;
+			width:30%;
+		}
+	
+	.col-2{ color: green;
+		width:  30%;
+		height: 100%;
+		}
+	
+	.col-3{ color: black;
+		width: 30%;
+		}
+
+}
+
+@media tablet (min-width: 768px),{
+	.col-1{
+		width: 100%;
+	}
+	.col-2{
+		width: 80px;
+		height: 100px;
+	}
+	.col-3{
+		width: 80%;
+		height: 100%;
+	}
+}
+
+@media mobile (min-width: 576px){
+	.col-1{
+		width: 100%;
+	}
+	.col-2{
+		width: 100px;
+		height: 100px;
+	}
+	.col-3{
+		width: 80%;
+		height: 100%;
+	}
+}
+
+
+
+
+
+
+
+
